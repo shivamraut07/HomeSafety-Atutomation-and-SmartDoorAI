@@ -1,0 +1,40 @@
+# Ignore Datasets & Media
+dataset/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+dataset/intruder/
+*.jpg
+
+# Ignore Compressed Archives
+*.zip
+*.tar
+*.gz
+*.rar
+src.zip
+
+# Ignore Python Cache & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Ignore IDE & OS Configuration
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore Trained Models (if any are generated)
+*.pkl
+*.h5
+*.pt
+*.onnx
+*.dat
+*.xml
